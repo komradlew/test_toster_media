@@ -1,0 +1,31 @@
+.header__inner{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.header__logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  background-color: #ffd1ac;
+  padding: 19px 0;
+  width: 100%;
+}
+
+.header__title{
+  text-align: center;
+  font-size: 13px;
+  text-transform: lowercase;
+}
+
+.header__desc{
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #f19d2f;
+  padding: 10px 13px;
+  width: 390px;
+  box-sizing: border-box;
+}
